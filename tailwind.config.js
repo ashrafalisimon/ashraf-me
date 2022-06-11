@@ -8,7 +8,8 @@ module.exports = {
       {
         ashraftheme: {
           primary: "#fd4766",
-          secondary: "#337dff",
+          secondary: "#1c99fe",
+          "info": "#7644ff",
           accent: "#000000",
           neutral: "#202020",
           "base-100": "#ffffff",

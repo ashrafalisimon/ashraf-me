@@ -9,7 +9,7 @@ module.exports = {
         ashraftheme: {
           primary: "#fd4766",
           secondary: "#337dff",
-          accent: "#2A2A2A",
+          accent: "#000000",
           neutral: "#202020",
           "base-100": "#ffffff",
         },

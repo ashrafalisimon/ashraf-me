@@ -24,9 +24,42 @@ const HeroSection = () => {
     console.log(container);
   };
 
+  const particleParams = {
+    fpsLimit: 60,
+    particles: {
+      color: {
+        value: "#6b605a"
+      },
+      number: {
+        density: {
+          enable: true,
+          value_area: 1000
+        },
+        value: 100
+      },
+      opacity: {
+        value: 1,
+        random: false,
+        anim: {
+          enable: false
+        }
+      },
+      shape: {
+        type: "circle"
+      },
+      size: {
+        random: false,
+        value: 5
+      }
+    },
+    retina_detect: true
+  };
+
   return (
     <div className="hero min-h-full bg-accent  lg:min-h-screen md:px-12 lg:px-24">
-      <Particles
+      <Particles className="particles" params={particleParams} />
+      {/* <Particles
+      className="h-full"
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -49,7 +82,7 @@ const HeroSection = () => {
                 distance: 800,
                 size: 80,
                 duration: 2,
-                opacity: 0.8,
+                opacity: 0.3,
                 speed: 3
               },
               push: {
@@ -69,7 +102,7 @@ const HeroSection = () => {
               color: "#ffffff",
               distance: 150,
               enable: true,
-              opacity: 0.3,
+              opacity: 0.2,
               width: 1,
             },
             collisions: {
@@ -82,7 +115,7 @@ const HeroSection = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 2,
+              speed: 1,
               straight: false,
             },
             number: {
@@ -93,7 +126,7 @@ const HeroSection = () => {
               value: 80,
             },
             opacity: {
-              value: 0.5,
+              value: 0.3,
             },
             shape: {
               type: "circle",
@@ -104,7 +137,7 @@ const HeroSection = () => {
           },
           detectRetina: true,
         }}
-      />
+      /> */}
 
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
@@ -116,7 +149,7 @@ const HeroSection = () => {
           <h1 className="text-3xl tracking-wider text-white sm:text-5xl font-bold">
             Ashraf Ali
           </h1>
-          <h2 className="text-2xl text-secondary sm:text-4xl font-bold pt-4">
+          <h2 className="text-2xl text-secondary sm:text-4xl font-extrabold pt-4">
             I'm a <span className="font-bold">{text}</span>
             <Cursor />
           </h2>

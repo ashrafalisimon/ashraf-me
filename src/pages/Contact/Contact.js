@@ -45,7 +45,7 @@ const Contact = () => {
                   <h2 className="text-xl font-semibold">Have a question?</h2>
                   <p className="text-gray-400">I am here to help</p>
                   <p className="text-primary">
-                    Email me at ashrafalicitp@gmail.com
+                  Email me at hello@youremail.com
                   </p>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const Contact = () => {
                 </span>
                 <div>
                   <h2 className="text-xl font-semibold">Current Location</h2>
-                  <p className="text-gray-400">Dhaka,Bangladesh.</p>
+                  <p className="text-gray-400">Chattogram,Bangladesh.</p>
                   <p className="text-primary">Serving clients worldwide</p>
                 </div>
               </div>
@@ -65,8 +65,8 @@ const Contact = () => {
                 </span>
                 <div>
                   <h2 className="text-xl font-semibold">Contact with me</h2>
-                  <p className="text-gray-400">Email: muntasirahmeed@gmail.com</p>
-                  <p className="text-primary">Phone : +880-1639465255</p>
+                  <p className="text-gray-400">Email: ashrafalicitp@gmail.com</p>
+                  <p className="text-primary">Phone : +88001870068836</p>
                 </div>
               </div>
             </div>

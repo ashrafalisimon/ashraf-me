@@ -9,6 +9,7 @@ import Portfolio from './pages/Portfolio/Portfolio';
 import Service from './pages/Service/Service';
 import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
+import PortfolioDetails from './pages/Portfolio/PortfolioDetails';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
+        <Route path='/portfolio/:id' element={<PortfolioDetails/>}/>
         <Route path='/service' element={<Service/>}/>
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/contact' element={<Contact/>}/>

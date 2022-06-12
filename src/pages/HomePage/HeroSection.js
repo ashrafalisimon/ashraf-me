@@ -24,41 +24,11 @@ const HeroSection = () => {
     console.log(container);
   };
 
-  const particleParams = {
-    fpsLimit: 60,
-    particles: {
-      color: {
-        value: "#6b605a"
-      },
-      number: {
-        density: {
-          enable: true,
-          value_area: 1000
-        },
-        value: 100
-      },
-      opacity: {
-        value: 1,
-        random: false,
-        anim: {
-          enable: false
-        }
-      },
-      shape: {
-        type: "circle"
-      },
-      size: {
-        random: false,
-        value: 5
-      }
-    },
-    retina_detect: true
-  };
+  
 
   return (
-    <div className="hero min-h-full bg-accent  lg:min-h-screen md:px-12 lg:px-24">
-      <Particles className="particles" params={particleParams} />
-      {/* <Particles
+    <div className="hero relative min-h-full bg-accent  lg:min-h-screen md:px-12 lg:px-24">
+      <Particles
       className="h-full"
         id="tsparticles"
         init={particlesInit}
@@ -137,7 +107,7 @@ const HeroSection = () => {
           },
           detectRetina: true,
         }}
-      /> */}
+      />
 
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img

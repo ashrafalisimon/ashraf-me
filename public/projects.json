@@ -3,29 +3,35 @@
         "_id": 1,
         "projectName": "Style-Fabrics",
         "description" :"Garments Manufacturer Portal for managing orders. Style Fabrics Limited is a Garments manufacturing company formed by an entrepreneur and is dedicated to manufacturing garments and maintaining production.",
+        "projectDetails": ["Manufacturer Website", "Responsive single page full stack website.", "Detailed information of the Manufacturer is given.", "Detailed information of the Inventories is given.","IAdmin Panel is Developed for Products & Order Management. Payment gateway Stripe.", "Can buy products. Be able to pay. Talk to us directly", "Implemented for email-password (login-Register) based login, google system & JWT security", "You can hire him by going here and peeling up the form" ],
         "img" : "https://i.ibb.co/c1091yT/style-fabrics.png",
         "technology": ["TailwindCSS","Desiy Ui", "React", "NodeJs", "MongoDB", "Firebase", "react hook form", "jwt","react query", "stripe"],
         "liveSite": "https://style-fabrics-cd172.web.app/",
         "clientCode": "https://github.com/ashrafalisimon/style-fabrics-client",
-        "ServerCode": "https://github.com/ashrafalisimon/style-fabrics-server"
+        "ServerCode": "https://github.com/ashrafalisimon/style-fabrics-server",
+        "sliderImg": ["https://i.ibb.co/7bNxV9q/silder-img06.png", "https://i.ibb.co/c1xRjNH/silder-img07.png", "https://i.ibb.co/tMXMbBD/silder-img08.png","https://i.ibb.co/MRGTJzT/silder-img09.png" ]
     },
     {
         "_id": 2,
         "projectName": "Boating Nevica",
         "description" :"Business stores goods in a warehouse, inventory management is a key part of how you control your stock. Learn the basics of warehouse inventory management.",
+        "projectDetails": ["Inventories Website", "Firebase Authentication implemented for email/password & Google.", "If the user is logged in, he will be able to manage items, add new items.", "Detailed information of the Inventories is given.","If you want to add Service him, you have to go to the Add Service page.", "You can add or delete any item if you want. (But you must have an account)" ],
         "img" : "https://i.ibb.co/7rrc1rP/boatin-nevia.png",
         "technology": ["TailwindCSS", "React", "NodeJs", "MongoDB", "Firebase", "heroicons"],
         "liveSite": "https://boating-nevica.web.app/",
         "clientCode": "https://github.com/ashrafalisimon/boating-nevica-client",
-        "ServerCode": "https://github.com/ashrafalisimon/boating-nevica-server"
+        "ServerCode": "https://github.com/ashrafalisimon/boating-nevica-server",
+        "sliderImg": ["https://i.ibb.co/4Rg1GWg/silder-img03.png", "https://i.ibb.co/0y0yp4W/silder-img04.png", "https://i.ibb.co/SJH153d/silder-img05.png" ]
     },
     {
         "_id": 3,
         "projectName": "Dream Focus Click",
         "description" :"Photographer Independent Service Provider Website.",
+        "projectDetails": ["Photographer Website", "Detailed information of the photographer is given.", "If you want to hire him, you have to go to the book page.", "You can hire him by going here and peeling up the form" ],
         "img" : "https://i.ibb.co/XZCQ0Gw/drem.png",
         "technology": ["react","bootstrap", "font awesome", "Firebase"],
         "liveSite": "https://dream-focus-click.web.app/",
-        "clientCode": "https://github.com/ashrafalisimon/independent-service-provider"
+        "clientCode": "https://github.com/ashrafalisimon/independent-service-provider",
+        "sliderImg": ["https://i.ibb.co/5LVnwxG/silder-img01.png", "https://i.ibb.co/t4zzYRv/silder-img02.png" ]
     }
 ]

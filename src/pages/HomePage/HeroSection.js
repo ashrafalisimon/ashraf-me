@@ -4,6 +4,8 @@ import HeroImg from "../../img/ashraf-yello (2).png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { bounce, fadeInRight } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
 
 const HeroSection = () => {
   const { text } = useTypewriter({
@@ -15,6 +17,13 @@ const HeroSection = () => {
     ],
     loop:50,
   });
+
+  const styles = {
+    fadeInRight: {
+      animation: 'x 3s',
+      animationName: Radium.keyframes(fadeInRight, 'bounce')
+    }
+  }
 
   const particlesInit = async (main) => {
     console.log(main);
@@ -110,10 +119,15 @@ const HeroSection = () => {
       />
 
       <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="w-full px-2 md:px-0 md:max-w-lg lg:max-w-lg xl:max-w-2xl rounded-lg shadow-2xl">
+        <StyleRoot>
         <img
+        style={styles.fadeInRight}
           src={HeroImg}
           className="w-full px-2 md:px-0 md:max-w-lg lg:max-w-lg xl:max-w-2xl rounded-lg shadow-2xl"
         />
+        </StyleRoot>
+        </div>
         <div>
           <p className="text-secondary">Hi, My Name is</p>
           <h1 className="text-3xl tracking-wider text-white sm:text-5xl font-bold">

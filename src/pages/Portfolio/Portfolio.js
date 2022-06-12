@@ -31,16 +31,7 @@ const Portfolio = () => {
                   <h4 className="text-lg md:text-xl text-white mb-2 md:mb-3 font-semibold">
                    {project.projectName}
                   </h4>
-                  {/* <p className='text-white'>{project.description}</p> */}
-                  {/* <p className="flex text-white flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm ">
-                    {
-                        project.technology.map((t, index) => 
-                            <span key={index} className="inline-block text-white px-2 py-1 bg-primary  rounded-md">
-                                {t}
-                    </span> )
-                    }
-                    
-                  </p> */}
+                 
                  <div className="flex space-x-3 pt-4">
                  <a href={project.liveSite} className='text-white px-2 py-1 bg-secondary  rounded-md' target='_blank'>Live Site</a>
                  <a href={project.clientCode} className='text-white px-2 py-1 bg-secondary  rounded-md' target='_blank'>Client Site</a>
